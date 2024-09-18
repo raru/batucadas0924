@@ -6,5 +6,5 @@ export default defineConfig({
   integrations: [react(), tailwind()]
 
     site: 'https://raru.github.io/batucadas0924',
-    base: 'batucadas0924',  
+    base: '/batucadas0924',  
 });
