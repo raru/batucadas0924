@@ -8,9 +8,9 @@ import BatucadaLogo from "../assets/images/logo-batucada-green.png";
 const navbarLinks = [
   { label: "Home", href: "/#home", ariaLabel: "Home" },
   { label: "Batucada", href: "/#features", ariaLabel: "Batucada" },
+  { label: "Clientes", href: "/#features2", ariaLabel: "Clientes" },
   { label: "Área de Imprensa", href: "/#pricing", ariaLabel: "Área de Imprensa" },
-  { label: "Clientes", href: "/#feedback", ariaLabel: "Clientes" },
-  { label: "Contato", href: "/#FAQ", ariaLabel: "Contato" },
+  { label: "Contato", href: "/#contato", ariaLabel: "Contato" },
 ];
 
 export const Navbar = () => {

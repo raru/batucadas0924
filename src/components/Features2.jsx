@@ -8,7 +8,9 @@ import karolconca from "../assets/images/karolconca.jpg"
 import mariarita from "../assets/images/mariarita.jpg" 
 
 export const Features2 = () => (
-  <section className="w-full bg-bgDark2 mt-12 sm:mt-24 mb-12 lg:my-20 lg:mb-24 pt-4">
+  <section className="w-full bg-bgDark1 mt-12 sm:mt-24 lg:mt-20 pt-4"
+  id="features2"
+  >
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}

@@ -7,8 +7,16 @@ import { SlackLogo } from "../assets/logos/SlackLogo";
 import { SpotifyLogo } from "../assets/logos/SpotifyLogo";
 import { StripeLogo } from "../assets/logos/StripeLogo";
 
+
+import logo_dack_branca from "../assets/images/logo_dack_branca.png";
+import logo_disney from "../assets/images/logo_disney.png";
+import fantasma from "../assets/images/logo_lab-fantasma.webp";
+import logo_natura from "../assets/images/logo_natura.png";
+import logo_sonymusic from "../assets/images/logo_sonymusic.jpg";
+import logo_trama from "../assets/images/logo_trama.jpg";
+
 export const Brands = () => (
-  <section className="py-12 sm:py-24 bg-bgDark1 w-full  lg:mt-16 mb-8 lg:mb-16">
+  <section className="py-12 sm:py-24 bg-black w-full mb-8 lg:mb-16">
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -30,23 +38,53 @@ export const Brands = () => (
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-                <AmazonLogo />
+                <img
+                src={logo_dack_branca.src}
+                width="70"
+                alt="DEck Discos"
+                className=""
+              />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
-                <DropboxLogo />
+              <img
+                src={logo_disney.src}
+                width="70"
+                alt="DEck Discos"
+                className=""
+              />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
-                <NetflixLogo />
+              <img
+                src={fantasma.src}
+                width="70"
+                alt="DEck Discos"
+                className=""
+              />
               </div>
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-                <StripeLogo />
+              <img
+                src={logo_natura.src}
+                width="70"
+                alt="DEck Discos"
+                className=""
+              />
               </div>
 
               <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
-                <SpotifyLogo />
+              <img
+                src={logo_sonymusic.src}
+                width="70"
+                alt="DEck Discos"
+                className=""
+              />
               </div>
               <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
-                <SlackLogo />
+              <img
+                src={logo_trama.src}
+                width="70"
+                alt="DEck Discos"
+                className=""
+              />
               </div>
             </div>
           </div>
