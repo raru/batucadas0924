@@ -4,6 +4,7 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   integrations: [react(), tailwind()],
-    site: 'https://raru.github.io'
+    site: 'https://raru.github.io/batucadas0924/',
+    root: './batucadas0924'
     // base: '/batucadas0924',  
 });
