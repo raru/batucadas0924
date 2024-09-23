@@ -50,25 +50,7 @@ aria-label="Batucadas Comunicação"
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
 
               </p>
-              <div className="w-36 mx-auto lg:mx-0">
-                <a
-                  className="inline-block w-10  h-10 mr-2 p-2 pt-[0.55rem] outlined-button"
-                  href="https://www.facebook.com/profile.php?id=100048712459791"
-                  target="_blank"
-                  aria-label="Facebook"
-                >
-                  <FacebookIcon />
-                </a>
 
-                <a
-                  className="inline-block w-10  h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
-                  href="https://www.instagram.com/batucada_comunicacao"
-                  target="_blank"
-                  aria-label="Instagram"
-                >
-                  <InstagramIcon />
-                </a>
-              </div>
             </div>
             <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
               <div className="w-full md:w-1/3 lg:w-1/3 mb-16 md:mb-0">
@@ -88,6 +70,26 @@ aria-label="Batucadas Comunicação"
                       </a>
                     </li>
                 </ul>
+
+                <div className="w-36 mx-auto lg:mx-0">
+                <a
+                  className="inline-block w-10  h-10 mr-2 p-2 pt-[0.55rem] outlined-button"
+                  href="https://www.facebook.com/profile.php?id=100048712459791"
+                  target="_blank"
+                  aria-label="Facebook"
+                >
+                  <FacebookIcon />
+                </a>
+
+                <a
+                  className="inline-block w-10  h-10 mr-2 p-2 pt-[0.55rem] pl-[0.55rem] outlined-button"
+                  href="https://www.instagram.com/batucada_comunicacao"
+                  target="_blank"
+                  aria-label="Instagram"
+                >
+                  <InstagramIcon />
+                </a>
+              </div>                
               </div>
             </div>
           </div>

@@ -8,7 +8,9 @@ import karolconca from "../assets/images/karolconca.jpg"
 import mariarita from "../assets/images/mariarita.jpg" 
 
 export const Features2 = () => (
-  <section className="w-full bg-bgDark1 mt-12 sm:mt-24 lg:mt-20 pt-4"
+  <section 
+  className="w-full bg-bgDark1 pt-24 -mt-8  mb-8 sm:-mt-8 sm:mb-24 xl:-mt-8 2xl:mt-0    md:pt-[12vw] lg:pt-16"
+
   id="features2"
   >
     <motion.div
@@ -17,8 +19,8 @@ export const Features2 = () => (
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.2 }}
     >
-      <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
-        <div className="w-11/12 sm:w-3/4 mx-auto lg:w-4/12 flex flex-wrap lg:-mx-4 sm:pr-8 justify-center order-last lg:order-first">
+        <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
+        {/* <div className="w-11/12 sm:w-3/4 mx-auto lg:w-4/12 flex flex-wrap lg:-mx-4 sm:pr-8 justify-center order-last lg:order-first">
           <div className="mb-8 lg:mb-0 w-full px-2 lg:pl-16 flex flex-col justify-center md:pl-8">
             
             <div className="py-3 md:pl-3 md:pr-20 lg:pr-12 rounded">
@@ -67,14 +69,14 @@ export const Features2 = () => (
             </div>
 
           </div>
-        </div>
+        </div> */}
 
-        <div className="w-full lg:w-8/12 mb-12 lg:mb-0 xl:pl-8">
-          <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
+<div className="w-full mb-12 lg:mb-0">
+<div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
             <span className="block-subtitle">clientes e projetos</span>
-            <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
+            <p className="mb-12 text-secondaryText leading-loose">
             Cada projeto é tratado com uma dedicação quase artesanal
-            </h2>
+            </p>
             <p className="mb-12 text-secondaryText leading-loose">
             Desde sua criação, a Batucada Comunicação tem sido responsável pela divulgação de projetos para empresas como Trama, Disney, Deck, Polysom, Sony Music, Universal, Warner, Laboratório Fantasma, Skol Music, Natura, Nokia, Mix FM, Nivea, Dueto e Midas Music. A agência também atuou na divulgação de festivais como o Nublu Jazz Festival, Alemanha Groove, Matanza Fest, El Grande Conserto (Casa de Francisca) e Rec-Beat; shows internacionais de artistas como Bad Brains, Café Tacvba, Didier Lockwood e Jovanotti; além de projetos especiais como Elis 70 Anos, o espetáculo "Rogério Flausino & Wilson Sideral Cantam Cazuza" e a aclamada turnê conjunta de Pitty e Nando Reis, "As Suas, As Minhas e As Nossas".
             </p>
