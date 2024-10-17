@@ -3,13 +3,13 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import { GithubIcon } from "../assets/icons/GithubIcon";
 
-import BatucadaLogo from "../assets/images/logo-batucada-green.png";
+import BatucadaLogo from "../assets/images/logo-batucada_green.png";
 
 const navbarLinks = [
   { label: "Home", href: "/#home", ariaLabel: "Home" },
   { label: "Batucada", href: "/#features", ariaLabel: "Batucada" },
   { label: "Clientes", href: "/#features2", ariaLabel: "Clientes" },
-  { label: "Área de Imprensa", href: "/#pricing", ariaLabel: "Área de Imprensa" },
+  { label: "Área de Imprensa", href: "/#imprensa", ariaLabel: "Área de Imprensa" },
   { label: "Contato", href: "/#contato", ariaLabel: "Contato" },
 ];
 
@@ -18,7 +18,7 @@ export const Navbar = () => {
 
   return (
     <nav
-      className="w-full h-20 flex flex-col justify-center items-center fixed bg-bgDark1 lg:bg-bgDarkTransparent z-40 lg:backdrop-blur-xl"
+      className="hidden w-full h-20 flex flex-col justify-center items-center fixed bg-bgDark1 lg:bg-bgDarkTransparent z-40 lg:backdrop-blur-xl"
       aria-label="Main navigation"
     >
       <div className="2xl:w-[1280px] xl:w-10/12 w-11/12 flex justify-between items-center relative">
@@ -36,13 +36,13 @@ src={BatucadaLogo.src}
 width="50"
 decoding="async"
 loading="lazy"
-alt="Batucadas Comunicação"
+alt="Batucada Comunicação"
 className="mx-auto sm:mx-unset"
 aria-label="Batucadas Comunicação"
 />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                Batucadas Comunicacão
+                Batucada Comunicação
               </div>
             </div>
           </a>
@@ -78,7 +78,7 @@ aria-label="Batucadas Comunicação"
           >
             <div
               className="flex flex-col mt-16 lg:hidden absolute top-4 left-0  bg-bgDark1 z-50 w-full 
-        items-center gap-10 pb-10 border-y border-solid border-bgDark3 pt-10
+        items-center gap-10 pb-10 border-y border-solid border-white pt-10
         "
             >
               {navbarLinks.map(({ label, href, ariaLabel }) => (

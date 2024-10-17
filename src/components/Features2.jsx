@@ -9,7 +9,7 @@ import mariarita from "../assets/images/mariarita.jpg"
 
 export const Features2 = () => (
   <section 
-  className="w-full bg-bgDark1 pt-24 -mt-8  mb-8 sm:-mt-8 sm:mb-24 xl:-mt-8 2xl:mt-0    md:pt-[12vw] lg:pt-16"
+  className="w-full bg-bgDark1"
 
   id="features2"
   >
@@ -71,12 +71,12 @@ export const Features2 = () => (
           </div>
         </div> */}
 
-<div className="w-full mb-12 lg:mb-0">
+<div className="w-full mb-6 lg:mb-0">
 <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-            <span className="block-subtitle">clientes e projetos</span>
+            {/* <span className="block-subtitle">clientes e projetos</span>
             <p className="mb-12 text-secondaryText leading-loose">
             Cada projeto é tratado com uma dedicação quase artesanal
-            </p>
+            </p> */}
             <p className="mb-12 text-secondaryText leading-loose">
             Desde sua criação, a Batucada Comunicação tem sido responsável pela divulgação de projetos para empresas como Trama, Disney, Deck, Polysom, Sony Music, Universal, Warner, Laboratório Fantasma, Skol Music, Natura, Nokia, Mix FM, Nivea, Dueto e Midas Music. A agência também atuou na divulgação de festivais como o Nublu Jazz Festival, Alemanha Groove, Matanza Fest, El Grande Conserto (Casa de Francisca) e Rec-Beat; shows internacionais de artistas como Bad Brains, Café Tacvba, Didier Lockwood e Jovanotti; além de projetos especiais como Elis 70 Anos, o espetáculo "Rogério Flausino & Wilson Sideral Cantam Cazuza" e a aclamada turnê conjunta de Pitty e Nando Reis, "As Suas, As Minhas e As Nossas".
             </p>

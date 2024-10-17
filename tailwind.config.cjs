@@ -5,11 +5,11 @@ module.exports = {
     extend: {
       colors: {
         primaryColor: "rgb(99, 102, 241)",
-        secondaryColor: "rgb(161, 163, 247)",
+        secondaryColor: "rgb(165, 205, 176)",
         primaryText: "rgb(255,255,255)",
         secondaryText: "rgb(174, 178, 183)",
         bgDark1: "rgb(31, 32, 35)",
-        bgDark2: "rgb(38, 39, 43)",
+        bgDark2: "rgb(31, 32, 35)",
         bgDark3: "rgb(48, 49, 54)",
         bgDark3Hover: "rgb(55, 56, 62)",
         bgDarkTransparent: "rgb(31, 32, 35, 0.7)",
