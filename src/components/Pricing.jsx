@@ -32,7 +32,7 @@ export const Pricing = () => {
         >
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center mb-16">
-              <h2 class=" text-4xl  sm:text-5xl 2xl:text-6xl font-bold tracking-normal text-secondaryColor">Área de Imprensa</h2>
+              <h2 className=" text-4xl  sm:text-5xl 2xl:text-6xl font-bold tracking-normal text-secondaryColor">Área de Imprensa</h2>
               {/* <p className="mb-6 text-secondaryText">
               Acesse imagens e conteúdos exclusivos para a imprensa  
               </p> */}

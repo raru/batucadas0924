@@ -45,7 +45,7 @@ export const Footer = () => {
                         target="_blank"
                         aria-label="batucada@batucadacomunicacao.com"
                       >
-                        <span class="text-xl text-secondaryColor"><strong>Contato:</strong></span><br/>batucada@batucadacomunicacao.com
+                        <span className="text-xl text-secondaryColor"><strong>Contato:</strong></span><br/>batucada@batucadacomunicacao.com
                       </a>
                     </li>
                 </ul>
