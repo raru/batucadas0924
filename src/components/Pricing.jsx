@@ -37,10 +37,10 @@ export const Pricing = () => {
               Acesse imagens e conteúdos exclusivos para a imprensa  
               </p> */}
             </div>
-            <div className="flex flex-wrap flex-col lg:flex-row -mx-4 items-center">
+            <div className="flex flex-wrap flex-col lg:flex-col -mx-4 items-center">
               
 
-              <div className="w-[350px] sm:w-[380px] lg:w-1/3 px-4 mb-8 lg:mb-0">
+              <div className="w-[350px] sm:w-[380px] lg:w-3/3 px-4 mb-8 lg:mb-0 items-center">
                 <div className="px-8 py-4 bg-bgDark3 rounded-3xl">
                   <h3 className="mb-2 2xl:mb-4 text-xl font-bold font-heading text-primaryText text-center">
                   Acesse imagens e conteúdos exclusivos para a imprensa  

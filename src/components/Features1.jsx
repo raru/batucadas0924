@@ -9,7 +9,7 @@ import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 export const Features1 = () => {
   return (
     <section
-      className="w-full bg-bgDark2 pt-24 -mt-8 sm:-mt-8 sm:mb-24 xl:-mt-8 2xl:mt-0    md:pt-[12vw] lg:pt-16"
+      className="w-full bg-bgDark2 pt-24 -mt-8 sm:-mt-8 xl:-mt-8 2xl:mt-0    md:pt-[12vw] lg:pt-16"
       id="features"
     >
       <motion.div
@@ -23,6 +23,7 @@ export const Features1 = () => {
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
 
               <span className="block-subtitle">A Batucada Comunicação</span>
+              <br/><br/>
               <p className="mb-10 text-secondaryText leading-loose">
               Fundada em 2007 em São Paulo, nasceu com o propósito de atender o setor de música e entretenimento. 
               <br/>

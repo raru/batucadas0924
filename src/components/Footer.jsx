@@ -33,7 +33,7 @@ export const Footer = () => {
         <div className="container mx-auto px-4 w-4/5 md:w-11/12 lg:w-10/12 xl:w-4/5 2xl:w-2/3">
           <div className="flex flex-wrap">
 
-            <div className="w-full lg:pl-16 lg:flex flex-wrap justify-between text-center">
+            <div className="w-full lg:pl-16 lg:flex flex-wrap justify-between text-left">
 
                 
                 <ul>
@@ -45,7 +45,7 @@ export const Footer = () => {
                         target="_blank"
                         aria-label="batucada@batucadacomunicacao.com"
                       >
-                        <strong>Contato:</strong><br/>batucada@batucadacomunicacao.com
+                        <span class="text-xl text-secondaryColor"><strong>Contato:</strong></span><br/>batucada@batucadacomunicacao.com
                       </a>
                     </li>
                 </ul>
