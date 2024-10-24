@@ -24,12 +24,10 @@ export const Features1 = () => {
 
               <span className="block-subtitle">A Batucada Comunicação</span>
               <br/><br/>
-              <p className="mb-10 text-secondaryText leading-loose">
-              Fundada em 2007 em São Paulo, nasceu com o propósito de atender o setor de música e entretenimento. 
-              <br/>
-              Com uma filosofia de adaptação constante ao perfil e às necessidades de cada cliente, a agência se especializou em criar, desenvolver e executar estratégias de divulgação sob medida, cuidadosamente desenhadas para cada artista, empresa ou evento. Cada projeto é tratado com uma dedicação quase artesanal, assegurando que cada detalhe seja realizado com qualidade, empenho e atenção.
+              <p className="mb-5 text-secondaryText leading-loose">
+              Fundada em 2007 em São Paulo, nasceu com o propósito de atender o setor de música e entretenimento. Com uma filosofia de adaptação constante ao perfil e às necessidades de cada cliente, a agência se especializou em criar, desenvolver e executar estratégias de divulgação sob medida, cuidadosamente desenhadas para cada artista, empresa ou evento. Cada projeto é tratado com uma dedicação quase artesanal, assegurando que cada detalhe seja realizado com qualidade, empenho e atenção.
               </p>
-              <p className="mb-10 text-secondaryText leading-loose">
+              <p className="mb-5 text-secondaryText leading-loose">
               Nosso compromisso é atender a imprensa com clareza, concisão e eficiência, promovendo uma comunicação ágil e colaborativa que facilite o trabalho dos profissionais de mídia. A Batucada Comunicação valoriza a construção de relacionamentos sólidos e duradouros com a imprensa.  
               </p>
 

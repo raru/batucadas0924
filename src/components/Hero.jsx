@@ -11,7 +11,7 @@ export const Hero = () => {
       className="w-screen  flex justify-center items-center bg-bgDark1 mb-[10vw] hero-bg-gradient"
       id="home"
     >
-      <div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-8 md:pt-8 lg:pt-14 text-center mt-10">
+      <div className="w-full flex flex-col justify-center items-center pt-4 md:pt-4 lg:pt-8 text-center mt-5">
 
 
         <motion.div
@@ -23,7 +23,7 @@ export const Hero = () => {
             <img
               src={imgbatucadas.src}
               alt="Batucadas"
-              className="p-28"
+              className="py-14 px-28 w-[40%]"
             />
           </div>
         </motion.div>
@@ -34,7 +34,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className="text-3xl sm:text-4xl lg:text-4xl xl:text-4xl font-bold tracking-wide  text-primaryText mb-8  px-8 sm:px-8 md:px-20 lg:px-4 mt-10">
+          <div className="text-3xl font-bold tracking-wide  text-primaryText mb-4  px-4 mt-5">
             <h1 className="inline md:hidden">Estratégias de divulgação sob medida</h1>
             <h1 className="hidden md:inline">Estratégias de divulgação sob medida </h1>
           </div>

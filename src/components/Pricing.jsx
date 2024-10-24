@@ -23,7 +23,7 @@ export const Pricing = () => {
   return (
     <section className="w-screen flex justify-center bg-bgDark2 relative">
       <div className="absolute -top-16" id="imprensa" />
-      <div className="pb-20 pt-12 bg-bgDark2  2xl:w-[1150px] lg:w-[1050px]  md:w-4/5 ">
+      <div className="pb-20 pt-20 bg-bgDark2  2xl:w-[1150px] lg:w-[1050px]  md:w-4/5 ">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -43,7 +43,7 @@ export const Pricing = () => {
               <div className="w-[350px] sm:w-[380px] lg:w-3/3 px-4 mb-8 lg:mb-0 items-center">
                 <div className="px-8 py-4 bg-bgDark3 rounded-3xl">
                   <h3 className="mb-2 2xl:mb-4 text-xl font-bold font-heading text-primaryText text-center">
-                  Acesse imagens e conteúdos exclusivos para a imprensa  
+                  Imagens e conteúdos disponíveis para download 
 
                   </h3>
 <a href="https://drive.google.com/drive/folders/0B-tEKNfe74LUcHlOcTRvNnhlcEU?resourcekey=0-4yEth742eeofDtQ0LO2JZA" target="_blank" >
@@ -53,7 +53,7 @@ export const Pricing = () => {
                     ahref="https://drive.google.com/drive/folders/0B-tEKNfe74LUcHlOcTRvNnhlcEU?resourcekey=0-4yEth742eeofDtQ0LO2JZA"
                     aria-label="Get started"
                   >
-                    Acessar
+                    Entrar
                   </button>
 </a>                  
                 </div>

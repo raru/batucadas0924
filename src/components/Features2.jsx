@@ -71,17 +71,17 @@ export const Features2 = () => (
           </div>
         </div> */}
 
-<div className="w-full mb-6 lg:mb-0">
+<div className="w-full mb-2 lg:mb-0">
 <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
             {/* <span className="block-subtitle">clientes e projetos</span>
             <p className="mb-12 text-secondaryText leading-loose">
             Cada projeto é tratado com uma dedicação quase artesanal
             </p> */}
-            <p className="mb-12 text-secondaryText leading-loose">
+            <p className="mb-5 text-secondaryText leading-loose">
             Desde sua criação, a Batucada Comunicação tem sido responsável pela divulgação de projetos para empresas como Trama, Disney, Deck, Polysom, Sony Music, Universal, Warner, Laboratório Fantasma, Skol Music, Natura, Nokia, Mix FM, Nivea, Dueto e Midas Music. A agência também atuou na divulgação de festivais como o Nublu Jazz Festival, Alemanha Groove, Matanza Fest, El Grande Conserto (Casa de Francisca) e Rec-Beat; shows internacionais de artistas como Bad Brains, Café Tacvba, Didier Lockwood e Jovanotti; além de projetos especiais como Elis 70 Anos, o espetáculo "Rogério Flausino & Wilson Sideral Cantam Cazuza" e a aclamada turnê conjunta de Pitty e Nando Reis, "As Suas, As Minhas e As Nossas".
             </p>
 
-            <p className="mb-12 text-secondaryText leading-loose">
+            <p className="mb-5 text-secondaryText leading-loose">
             Entre os muitos artistas que utilizam regularmente nossos serviços ou já trabalharam conosco, destacam-se Jota Quest, Pitty, Nando Reis, Emicida, Karol Conka, Maria Rita, Thiago Iorc, Manu Gavassi, Fernanda Takai, Marcos Valle, Roberto Menescal, Jorge Vercillo, Tropkillaz, Iggor Cavalera, Marcelo Falcão, Paulo Miklos, Pupillo, Alceu Valença, Lô Borges, Ira!, Otto, Marjorie Estiano, Wilson Simoninha, Far From Alaska, Maglore, Roberta Campos, DJ Marky, Luciana Mello, Paula Lima, Negra Li, Mundo Livre S/A, Mahmundi, Vintage Culture, The Baggios, Rael, Drik Barbosa, Hamilton de Holanda, Toquinho, Zizi Possi, Colomy, O Teatro Mágico, Electric Mob, Dead Fish e Elza Soares.
             </p>
   

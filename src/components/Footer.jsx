@@ -29,28 +29,30 @@ const footerData = [
 export const Footer = () => {
   return (
     <footer aria-label="Site footer" id="contato">
-      <div className="pt-10  lg:pt-20 lg:pb-16 bg-bgDark1 radius-for-skewed ">
+      <div className="pt-10 bg-bgDark1 radius-for-skewed ">
         <div className="container mx-auto px-4 w-4/5 md:w-11/12 lg:w-10/12 xl:w-4/5 2xl:w-2/3">
           <div className="flex flex-wrap">
 
-            <div className="w-full lg:pl-16 lg:flex flex-wrap justify-between text-left">
+            <div className="w-full flex-wrap justify-between text-left">
 
                 
                 <ul>
 
-                    <li className="mb-4">
+                    <li className="mb-4 text-center">
                       <a
-                        className="text-gray-400 hover:text-gray-300"
+                        className="text-gray-400 hover:text-gray-300 pl-4"
                         href="mailto:batucada@batucadacomunicacao.com"
                         target="_blank"
                         aria-label="batucada@batucadacomunicacao.com"
                       >
-                        <span className="text-xl text-secondaryColor"><strong>Contato:</strong></span><br/>batucada@batucadacomunicacao.com
+                        <span className="text-xl text-secondaryColor mr-4"><strong>Contato:</strong></span>
+                        <br/>
+                        batucada@batucadacomunicacao.com
                       </a>
                     </li>
                 </ul>
 
-                <div className="w-36 mx-auto lg:mx-0">
+                <div className="w-full items-center text-center  pl-4 my-10">
 
 
                 <a
