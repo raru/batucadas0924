@@ -23,7 +23,7 @@ export const Hero = () => {
             <img
               src={imgbatucadas.src}
               alt="Batucadas"
-              className="py-14 px-28 w-[40%]"
+              className="py-14 px-28 w-[100%] md:w-[40%]"
             />
           </div>
         </motion.div>
